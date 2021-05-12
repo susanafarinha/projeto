@@ -1,0 +1,14 @@
+---
+layout: default
+title: Work
+---
+
+{% for work in site.work %}
+
+<div class="work">
+    <a href="{{ site.baseurl }}/work/{{ work.slug }}"><img src="{{ site.baseurl }}{{ work.image }}" alt="{{ work.title }}"/></a>
+<h2>{{ work.title }}</h2>
+{{ work.description }}
+</div>
+
+{% endfor %}

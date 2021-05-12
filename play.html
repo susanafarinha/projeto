@@ -1,0 +1,13 @@
+---
+layout: default
+title: Play
+---
+
+{% for play in site.play %}
+
+<div class="play">
+<h2><img src="{{ play.image_path }}" alt="{{ play.title }}"/>{{ play.title }}</h2>
+{{ play.description }}
+</div>
+
+{% endfor %}
