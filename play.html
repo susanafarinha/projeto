@@ -6,7 +6,8 @@ title: Play
 {% for play in site.play %}
 
 <div class="play">
-<h2><img src="{{ play.image_path }}" alt="{{ play.title }}"/>{{ play.title }}</h2>
+    <a href="{{ site.baseurl }}/play/{{ play.slug }}"><img src="{{ site.baseurl }}{{ play.image }}" alt="{{ play.title }}"/></a>
+<h2>{{ play.title }}</h2>
 {{ play.description }}
 </div>
 

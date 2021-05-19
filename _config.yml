@@ -29,6 +29,7 @@ collections:
     permalink: /work/:path/
   play:
     output: true
+    permalink: /play/:path/
 
 # Build settings
 theme: minima
