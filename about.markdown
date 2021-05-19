@@ -1,18 +1,12 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hi, I'm Susana. I'm an aspiring Product Designer and Illustrator based in Lisbon, Portugal.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+My goal is to create good work for people who are trying to make the world a little bit nicer. Creating human-centered solutions, with a focus on user research techniques and strategy, interface design, prototyping and user testing. I consider myself someone with an enthusiastic and inquisitive mind, always striving to learn more. I highly value both individual and team work, where collaboration enables growth.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+This portfolio is a selection of work I enjoyed creating and want to make more of. If you’re feeling it, let’s talk!
 
-
-[jekyll-organization]: https://github.com/jekyll
