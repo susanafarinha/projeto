@@ -3,12 +3,52 @@ layout: default
 title: Play
 ---
 
-{% for play in site.play %}
-
-<div class="play">
-    <a href="{{ site.baseurl }}/play/{{ play.slug }}"><img src="{{ site.baseurl }}{{ play.image }}" alt="{{ play.title }}"/></a>
-<h2>{{ play.title }}</h2>
-{{ play.description }}
+<div class="container3">
+    <ul>
+        <li>
+            <figure>
+                <img src="../assets/img/jennajulien.webp" alt="Portrair of Jenna Marbles and Julien Solomita with their dogs">
+            </figure>
+        </li>
+        <li>
+            <figure>
+                <img src="../assets/img/taeyong.jpg" alt="Portrait of performer Lee Taeyong">
+            </figure>
+        </li>
+        <li>
+            <figure>
+                <img src="../assets/img/leticia.jpg" alt="Portrait of a girl with glasses">
+            </figure>
+        </li>
+        <li>
+            <figure>
+                <img src="../assets/img/markiboy.jpg" alt="Portrait of performer Mark Lee">
+            </figure>
+        </li>
+        <li>
+            <figure>
+                <img src="../assets/img/pinklady.jpg" alt="Portrait of woman with plump lips">
+            </figure>
+        </li>
+        <li>
+            <figure>
+                <img src="../assets/img/johnny.webp" alt="Portrait of performer Johnny Suh">
+            </figure>
+        </li>
+        <li>
+            <figure>
+                <img src="../assets/img/ashnikko.jpg" alt="Portrait of singer-songwritter Ashnikko">
+            </figure>
+        </li>
+        <li>
+            <figure>
+                <img src="../assets/img/bluemark.jpg" alt="Portrait of performer Mark Lee">
+            </figure>
+        </li>
+        <li>
+            <figure>
+                <img src="../assets/img/sunandmoon.webp" alt="Portrait of two sisters">
+            </figure>
+        </li>
+    </ul>
 </div>
-
-{% endfor %}
