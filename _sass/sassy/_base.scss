@@ -1,0 +1,45 @@
+body, h1, h2, h3,
+p, ul, li, figure {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+  color: $text-color;
+  background-color: $background-color;
+  -webkit-text-size-adjust: 100%;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  scroll-behavior: smooth;
+  text-align: left;
+}
+
+main, footer, .title {
+    width: 80vw;
+    margin: auto;
+}
+
+a {
+  text-decoration: none;
+  color: $brand-color;
+  font-weight: $base-font-weight;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+sup {
+  font-size: $small-font-size;
+}

@@ -1,10 +1,10 @@
 <header class="site-header" role="banner">
 
   <div class="wrapper">
-    <h1><a href="{{ site.baseurl }}/">{{ site.data.navigation.docs_list_title }}</a></h1>
-    <ul>
+    <h1 class="title"><a href="{{ site.baseurl }}/">{{ site.data.navigation.docs_list_title }}</a></h1>
+    <ul class="nav">
       {% for item in site.data.navigation.docs %}
-      <li>
+      <li class="menu">
         <a href="{{ site.baseurl }}/{{ item.url }}">
         {{ item.title }}</a>
       </li>

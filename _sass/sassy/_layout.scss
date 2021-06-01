@@ -1,0 +1,23 @@
+.home-description {
+    p {
+        font-size: $big-font-size;
+        font-weight: $base-font-weight;
+    }
+}
+
+.nav {
+    position: fixed;
+    left: 4px;
+    right: 4px;
+    bottom: 4px;
+    background-color: $background-color;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    .menu{
+        display: inline-block;
+        padding: 0 5px;
+        height: 30px;
+        line-height: 30px;
+    }
+}
