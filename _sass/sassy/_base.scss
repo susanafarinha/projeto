@@ -16,7 +16,7 @@ body {
   text-align: left;
 }
 
-main, footer, .title {
+main, .footer-wrapper {
     width: 80vw;
     margin: auto;
 }
@@ -43,3 +43,4 @@ li {
 sup {
   font-size: $small-font-size;
 }
+
