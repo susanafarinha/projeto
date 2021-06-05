@@ -1,0 +1,25 @@
+
+
+@media (min-width: 620px) { 
+    .container2 {
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            }
+            li {
+                width: 40vw;
+            }
+    }
+    .container3 {
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            }
+            li {
+                width: 20vw;
+            }
+    }
+}
+    

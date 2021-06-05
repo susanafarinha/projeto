@@ -34,20 +34,21 @@ footer {
         display: flex;
         justify-content: space-between;
         width: 80vw;
-        margin: auto;
+        margin: 1vw auto;
         a {
             align-self: center;
         }
-    }
-    .nav {
-        position: unset;
-        .menu {
-            padding: 1em;
-            justify-content: flex-end;
-            align-self: center;
+        .nav {
+            position: unset;
+            .menu {
+                padding: 0 0 0 1rem;
+                justify-content: flex-end;
+                align-self: center;
+                
+            }
         }
     }
-
+    
 }
 
 @media (min-width: 1000px) {
