@@ -35,6 +35,10 @@ footer {
         justify-content: space-between;
         width: 80vw;
         margin: 1vw auto;
+        .title {
+            margin: 0;
+            width: auto;
+        }
         a {
             align-self: center;
         }

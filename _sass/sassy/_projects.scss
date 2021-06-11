@@ -1,25 +1,33 @@
+@mixin flexgrid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        }
 
-
-@media (min-width: 620px) { 
+@media (min-width: 620px) {
     .container2 {
-        ul {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-evenly;
-            }
+        ul { 
+            @include flexgrid();
             li {
                 width: 40vw;
             }
+        }
+        
     }
     .container3 {
         ul {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-evenly;
-            }
+            @include flexgrid();
             li {
                 width: 20vw;
             }
+        }
+    }
+    .container4 {
+        ul {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-gap: 10px;
+        }
     }
 }
     
