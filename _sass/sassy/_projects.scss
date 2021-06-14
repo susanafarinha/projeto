@@ -4,15 +4,18 @@
         justify-content: space-evenly;
         }
 
+.container2, .container3 {
+    text-align: center;
+}
+
 @media (min-width: 620px) {
     .container2 {
         ul { 
             @include flexgrid();
             li {
-                width: 40vw;
+                width: 35vw;
             }
         }
-        
     }
     .container3 {
         ul {
@@ -27,7 +30,14 @@
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
             grid-gap: 10px;
+            figure {
+                transition: width 1s;
+            }
+            figure:hover {
+                width: 400px;
+            }
         }
     }
+    
 }
     

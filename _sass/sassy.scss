@@ -4,16 +4,20 @@
 
 $base-font-family: 'Raleway', sans-serif;
 
-$base-font-size:   1.1rem !default;
-$base-font-weight: 400 !default;
-$big-font-size: 1.5rem !default;
-$big-font-weight: 700 !default;
-$small-font-size:  $base-font-size * 0.5 !default;
-$base-line-height: 1.5 !default;
+$base-font-size:   1.1rem;
+$base-font-weight: 400;
+$big-font-size: 1.5rem;
+$big-font-weight: 700;
+$small-font-size:  $base-font-size * 0.5;
+$base-line-height: 1.5;
 
-$text-color:       #ccebf8 !default;
-$background-color: #0d1e48 !default;
-$brand-color:      #fea9ff !default;
+$text-color:       #ccebf8;
+$background-color: #0d1e48;
+$background-color2:#173580;
+$background-color3:#37136e;
+$background-color4:#56125e;
+$brand-color:      #fea9ff;
+$accent-color:     #173787; 
 
 $table-text-align: left !default;
 
