@@ -6,6 +6,10 @@
     img {
         width: 50px;
         animation: rotate 5s infinite linear;
+        transition: width 2s linear;
+    }
+    img:hover {
+        width: 100px;
     }
 }
 @keyframes rotate {
@@ -41,12 +45,15 @@ footer {
     }
 }
 
-.work, .fbaul-description {
+.project-description {
     padding-bottom: 60px;
+    padding-top: 30px;
     figure {
         padding-bottom: 20px;
     }
 }
+
+
 
 @media (min-width: 620px) { 
     .menu-wrapper {
