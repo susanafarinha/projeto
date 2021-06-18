@@ -3,11 +3,9 @@
 <ul>
 {% for item in site.data.socialmedia.docs %}
     <li>
-    <a href="{{ item.url }}">
+    <a href="{{ item.url }}" target="_blank" title="{{ item.title }}">
     <img src="{{ item.image_path }}" alt="{{ item.title }}" style="height: 20px; width: auto;"/>
 {{ item.title }} </a>
 </li>
-
 {% endfor %}
-
 </ul>

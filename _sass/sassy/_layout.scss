@@ -12,6 +12,7 @@
         width: 100px;
     }
 }
+
 @keyframes rotate {
     to {
       transform: rotateZ(360deg);}
@@ -44,16 +45,6 @@ footer {
         padding-top: 20px;
     }
 }
-
-.project-description {
-    padding-bottom: 60px;
-    padding-top: 30px;
-    figure {
-        padding-bottom: 20px;
-    }
-}
-
-
 
 @media (min-width: 620px) { 
     .menu-wrapper {

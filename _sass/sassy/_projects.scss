@@ -19,6 +19,19 @@
     }
 }
 
+.project-description {
+    padding-bottom: 60px;
+    padding-top: 30px;
+    figure {
+        padding-bottom: 20px;
+    }
+}
+
+.post-title {
+    text-align: left;
+    padding-top: 30px;
+}
+
 @media (min-width: 620px) {
     .container2 {
         ul { 
@@ -41,12 +54,6 @@
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
             grid-gap: 10px;
-            figure {
-                transition: width 1s;
-            }
-            figure:hover {
-                width: 400px;
-            }
         }
     }
     .post-content {
@@ -54,9 +61,6 @@
             max-width: 50vw;
             margin: unset;
         }
-    }
-    .post-title {
-        text-align: left;
     }
 }
     
